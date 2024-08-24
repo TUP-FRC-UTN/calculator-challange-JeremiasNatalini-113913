@@ -1,0 +1,17 @@
+<div class="calculadora-container">
+  <div>
+    <label for="valor1">Valor 1:</label>
+    <input type="number" id="valor1" (input)="onInputChange($event, 'valor1')">
+  </div>
+  <div>
+    <label for="valor2">Valor 2:</label>
+    <input type="number" id="valor2" (input)="onInputChange($event, 'valor2')">
+  </div>
+  <div>
+    <button (click)="realizarOperacion('suma')">Sumar</button>
+    <button (click)="realizarOperacion('resta')">Restar</button>
+    <button (click)="realizarOperacion('multiplicacion')">Multiplicar</button>
+    <button (click)="realizarOperacion('division')">Dividir</button>
+    <button (click)="realizarOperacion('borrar')">CE</button>
+  </div>
+</div>

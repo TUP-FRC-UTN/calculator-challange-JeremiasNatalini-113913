@@ -1,0 +1,33 @@
+/* Estilo general del contenedor del componente padre */
+.app-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+/* Estilo para el título */
+h1 {
+  font-size: 24px;
+  color: #007bff;
+  margin-bottom: 20px;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Estilo para el resultado */
+p {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+  margin-top: 20px;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Estilo para el componente calculadora */
+app-calculadora {
+  display: block;
+  margin: 0 auto;
+}
