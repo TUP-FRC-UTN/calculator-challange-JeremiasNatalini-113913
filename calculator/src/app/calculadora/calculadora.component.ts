@@ -35,6 +35,12 @@ export class CalculadoraComponent {
       case 'division':
         res = this.valor2 !== 0 ? this.valor1 / this.valor2 : NaN;
         break;
+      case 'potencia':
+        res = Math.pow(this.valor1, this.valor2);
+        break;
+      case 'raiz':
+        res = Math.sqrt(this.valor1);
+        break;
       case 'borrar':
         this.valor1 = 0;
         this.valor2 = 0;
